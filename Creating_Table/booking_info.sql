@@ -1,0 +1,22 @@
+CREATE TABLE booking_info (
+	booking_id INT NOT NULL AUTO_INCREMENT,
+    user_id INT,
+    booking_type VARCHAR (25),
+    booking_date DATETIME,
+    status VARCHAR (100),
+    driver_id INT,
+    origin VARCHAR(1000),
+    pick_up_time DATETIME,
+    destination VARCHAR (1000),
+    drop_off_time DATETIME,
+    travel_length DEC (6, 2),
+    matrix_id INT,
+    total DEC (7, 2),
+    payment_id INT,
+    payment_status VARCHAR(50),
+	created_by VARCHAR (100),
+    modified_by VARCHAR (100),
+    created_datetime DATETIME,
+    modified_datetime DATETIME,
+    PRIMARY KEY(booking_id)
+);

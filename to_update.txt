@@ -1,0 +1,28 @@
+Information Gathering:
+load_e_wallet_details /
+load_booking_details /
+load_driver_details /
+update_balance /
+update_payment_status /
+update_booking_status / 
+update_operating_status / 
+update_driver_status /
+
+Retrieval:
+retrieve_account_details (forgot password)/
+post_booking
+get_transaction_history
+get_status
+change_payment_type / 
+
+To update:
+get_driver_info---> add driver_pic / 
+get_user_info ?
+get_driver_info /
+get_booking_history /
+get_payment_details / 
+get_vehicle_type /
+
+To add:
+admin
+

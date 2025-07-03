@@ -1,0 +1,20 @@
+CREATE TABLE driver_info (
+	driver_id INT NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR (50),
+    last_name VARCHAR (50),
+    make VARCHAR(50),
+    model VARCHAR (50),
+    year INT,
+    vehicle_type VARCHAR (50),
+    plate_number VARCHAR (10),
+    mv_file_number VARCHAR (50),
+    contact_number VARCHAR (50),
+    operating VARCHAR (50),
+    driver_status VARCHAR (20),
+    driver_profile VARCHAR (150),
+	created_by VARCHAR (100),
+    modified_by VARCHAR (100),
+    created_datetime DATETIME,
+    modified_datetime DATETIME,
+    PRIMARY KEY (driver_id)
+);
